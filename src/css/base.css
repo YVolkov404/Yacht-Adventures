@@ -11,21 +11,29 @@
 
 body {
     color: var(--text);
-    background-color: var(--primary);
 }
-
-
 main {
     display: flex;
     flex-direction: column;
-    gap: 164px;
-    margin: 100px 0;
+    margin: 164px 0;
 }
-
 .dm-sans-regular,
 .dm-sans-medium,
 .dm-sans-bold,
 .dm-sans-medium-italic {
     font-family: var(--font-family);
     font-optical-sizing: auto;
+}
+.dm-sans-regular {
+    font-weight: 400;
+}
+.dm-sans-medium {
+    font-weight: 500;
+}
+.dm-sans-bold {
+    font-weight: 700;
+}
+.dm-sans-medium-italic {
+    font-weight: 500;
+    font-style: italic;
 }
