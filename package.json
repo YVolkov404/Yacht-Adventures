@@ -17,6 +17,7 @@
   "dependencies": {
     "glob": "^13.0.6",
     "postcss-sort-media-queries": "^6.3.3",
+    "postcss-sorting": "^10.0.0",
     "vite-plugin-full-reload": "^1.2.0",
     "vite-plugin-html-inject": "^1.1.2"
   }

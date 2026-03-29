@@ -16,6 +16,11 @@ main {
     display: flex;
     flex-direction: column;
     margin: 164px 0;
+    background-color: var(--primary);
+}
+header,
+footer {
+    background-color: var(--primary);
 }
 .dm-sans-regular,
 .dm-sans-medium,
