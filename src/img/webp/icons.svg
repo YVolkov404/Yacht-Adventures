@@ -1,5 +1,18 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-arrow-left" viewBox="0 0 72 32">
+<path fill="#f6f5ef" style="fill: var(--color1, #f6f5ef)" d="M22 0l-22 16 22 16v-13.229h50v-5.543h-50v-13.229z"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 64 32">
+<path fill="#f6f5ef" style="fill: var(--color1, #f6f5ef)" d="M44.444 0l19.556 15.396-19.556 15.396v-12.729h-44.444v-5.333h44.444v-12.729z"></path>
+</symbol>
+<symbol id="icon-menu" viewBox="0 0 32 32">
+<path fill="#f6f5ef" style="fill: var(--color1, #f6f5ef)" d="M2.667 7.993c0-0.733 0.595-1.327 1.327-1.327h10.68c0.352 0 0.689 0.14 0.938 0.389s0.389 0.586 0.389 0.938c0 0.352-0.14 0.689-0.389 0.938s-0.586 0.389-0.938 0.389h-10.68c-0.352 0-0.689-0.14-0.938-0.389s-0.389-0.586-0.389-0.938zM2.667 16c0-0.733 0.595-1.327 1.327-1.327h24.013c0.352 0 0.689 0.14 0.938 0.389s0.389 0.586 0.389 0.938c0 0.352-0.14 0.689-0.389 0.938s-0.586 0.389-0.938 0.389h-24.013c-0.352 0-0.689-0.14-0.938-0.389s-0.389-0.586-0.389-0.938zM3.993 22.68c-0.352 0-0.689 0.14-0.938 0.389s-0.389 0.586-0.389 0.938c0 0.352 0.14 0.689 0.389 0.938s0.586 0.389 0.938 0.389h16.013c0.352 0 0.689-0.14 0.938-0.389s0.389-0.586 0.389-0.938c0-0.352-0.14-0.689-0.389-0.938s-0.586-0.389-0.938-0.389h-16.013z"></path>
+</symbol>
+<symbol id="icon-menu-close" viewBox="0 0 32 32">
+<path fill="none" stroke="#f6f5ef" stroke-width="1.7333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1, #f6f5ef)" d="M24 8l-16 16"></path>
+<path fill="none" stroke="#f6f5ef" stroke-width="1.7333" stroke-miterlimit="4" stroke-linecap="round" stroke-linejoin="round" style="stroke: var(--color1, #f6f5ef)" d="M8 8l16 16"></path>
+</symbol>
 <symbol id="icon-arrow" viewBox="0 0 17 32">
 <path fill="#f6f5ef" style="fill: var(--color1, #f6f5ef)" d="M0 9.778l8.533-9.778 8.533 9.778h-7.055v22.222h-2.956v-22.222h-7.055z"></path>
 </symbol>
