@@ -1,8 +1,9 @@
 .mobile-menu {
+  position: relative;
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
-    display: flex;
     flex-direction: column;
     width: 100%;
     height: 100vh;
@@ -50,6 +51,18 @@
   background-color: transparent;
   border: none;
   padding: 0;
+}
+.promo-blur-1 {
+  position: fixed;
+  bottom: -150px;
+  left: 150px;
+  z-index: -1;
+}
+.promo-blur-2 {
+  position: fixed;
+  bottom: -50px;
+  left: -200px;
+  z-index: -1;
 }
 .mobile-menu.is-open {
     transform: translateY(0);
