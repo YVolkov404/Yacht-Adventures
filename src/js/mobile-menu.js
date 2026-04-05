@@ -1,22 +1,22 @@
 const refs = {
-  mobileMenuContainer: document.querySelector('.js-menu-container'),
-  mobileMenuCloseBtn: document.querySelector('.js-close-menu'),
-  mobileMenuOpenBtn: document.querySelector('.js-open-menu'),
+  jsContainer: document.querySelector('.js-container'),
+  jsCloseBtn: document.querySelector('.js-close'),
+  jsOpenBtn: document.querySelector('.js-open'),
 };
 
-refs.mobileMenuOpenBtn.addEventListener('click', onOpenModal);
-refs.mobileMenuCloseBtn.addEventListener('click', onCloseModal);
+refs.jsOpenBtn.addEventListener('click', onOpenModal);
+refs.jsCloseBtn.addEventListener('click', onCloseModal);
 
 function onOpenModal() {
   window.addEventListener('keydown', onEscKeyPress);
-  refs.mobileMenuContainer.classList.add('is-open');
-  refs.mobileMenuCloseBtn.addEventListener('click', onCloseModal);
+  refs.jsContainer.classList.add('is-open');
+  refs.jsCloseBtn.addEventListener('click', onCloseModal);
 }
 
 function onCloseModal() {
   window.removeEventListener('keydown', onEscKeyPress);
-  refs.mobileMenuContainer.classList.remove('is-open');
-  refs.mobileMenuCloseBtn.removeEventListener('click', onCloseModal);
+  refs.jsContainer.classList.remove('is-open');
+  refs.jsCloseBtn.removeEventListener('click', onCloseModal);
 }
 
 function onEscKeyPress(event) {
