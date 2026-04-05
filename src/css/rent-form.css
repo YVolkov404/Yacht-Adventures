@@ -1,0 +1,126 @@
+.rent-form {
+  background-color: var(--primary);
+  padding: 0 184px;
+}
+.rent-form-wrap {
+  display: flex;
+  width: 913px;
+  justify-content: space-between;
+}
+.rent-form-wrapper {
+  position: relative;
+}
+.rent-form-title {
+  font-size: 60px;
+  letter-spacing: -4.5;
+  line-height: 110%;
+  margin-bottom: 64px;
+}
+.form {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 120%;
+  gap: 20px;
+}
+label {
+  border-bottom: 1px solid var(--background-two);
+}
+input,
+textarea {
+  width: 443px;
+  height: 35px;
+  background-color: var(--primary);
+  border: none;
+  outline: transparent;
+  color: var(--backgroun-three);
+}
+textarea {
+  height: 77px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--background-three);
+  font-size: 16px;
+  letter-spacing: -4.5;
+  line-height: 120%;
+}
+.rent-form-button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: fit-content;
+  padding: 14px 28px;
+  border-radius: 60px;
+  background-color: transparent;
+  border: 1px solid var(--text);
+  background-color: transparent;
+  color: var(--text);
+  font-size: 18px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-top: 64px;
+  cursor: pointer;
+}
+.rent-form-button:hover {
+  color: var(--background-one);
+  border: 1px solid var(--background-one);
+}
+.rent-form-deco {
+  display: block;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .rent-form {
+    padding: 0 32px;
+  }
+  .rent-form-wrap {
+    width: 704px;
+  }
+  .rent-form-title {
+    font-size: 50px;
+    margin-bottom: 32px;
+  }
+  .rent-form-img {
+    width: 271px;
+  }
+  input,
+  textarea {
+    width: 364px;
+  }
+  .rent-form-button {
+    margin-top: 14px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .rent-form {
+    padding: 0 20px;
+  }
+  .rent-form-wrap {
+    width: 335px;
+    flex-direction: column;
+    gap: 40px;
+  }
+  input,
+  textarea {
+    width: 335px;
+  }
+  .rent-form-title {
+    font-size: 36px;
+    margin-bottom: 16px;
+  }
+  .rent-form-deco {
+    display: inline;
+  }
+  .rent-form-img {
+    width: 259px;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 14px;
+  }
+  .rent-form-button {
+    font-size: 14px;
+    margin-top: 24px;
+  }
+}
