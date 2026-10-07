@@ -70,11 +70,6 @@
 .promo-deco {
   color: var(--background-two)
 }
-.promo-blur {
-  position: absolute;
-  bottom: -70px;
-  left: 0;
-}
 
 @media screen and (max-width: 1279px) {
   .promo-subwrap {
