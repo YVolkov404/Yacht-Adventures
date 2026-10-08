@@ -2,6 +2,24 @@
   position: relative;
   background-color: var(--primary);
   padding: 0 32px;
+  height: 1355px;
+  overflow: hidden;
+}
+.promo-decor-01,
+.promo-decor-02 {
+  position: absolute;
+  bottom: 0;
+}
+.promo-decor-01 {
+  width: 650px;
+  right: 100px;
+  bottom: 50px;
+  z-index: 99;
+}
+.promo-decor-02 {
+  width: 700px;
+  left: 160px;
+  z-index: 99;
 }
 .promo-wrap {
   display: flex;
@@ -10,11 +28,13 @@
   justify-content: flex-start;
 }
 .promo-wrap:last-child {
+  position: relative;
   width: 882px;
   margin: 0 auto;
   flex-direction: column;
   transform: translateY(-178px);
   gap: 64px;
+  z-index: 999;
 }
 .promo-subwrap {
   width: 100%;
@@ -72,6 +92,23 @@
 }
 
 @media screen and (max-width: 1279px) {
+  .promo {
+    height: 1720px;
+  }
+  .promo-decor-01 {
+    width: 500px;
+    right: 0;
+    bottom: 75px;
+    z-index: 99;
+  }
+  .promo-decor-02 {
+    width: 600px;
+    left: -125px;
+    z-index: 99;
+  }
+  .promo-wrap:last-child {
+    width: 640px;
+  }
   .promo-subwrap {
     flex-direction: column;
     gap: 32px;
@@ -96,7 +133,19 @@
 
 @media screen and (max-width: 767px) and (min-width: 375px) {
   .promo {
+    height: 1406px;
     padding: 0 20px;
+  }
+  .promo-decor-01 {
+    width: 300px;
+    right: -35px;
+    bottom: 35px;
+    z-index: 99;
+  }
+  .promo-decor-02 {
+    left: -100px;
+    bottom: -25px;
+    z-index: 99;
   }
   .promo-wrapper {
     gap: 14px;
